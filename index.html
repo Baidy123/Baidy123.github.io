@@ -60,20 +60,15 @@
 			          <h2 style="font-size: 2.5em; font-weight: 900; margin-bottom: 0.5em;">About Me</h2>
 			        </header>
 			      <p style="line-height: 1.8; font-size: 1.05em; color: #ddd;">
-			        I am a master's student at <strong>The University of Manchester</strong>, currently finishing an 
-			        <strong>MSc in Robotics</strong> &mdash; though my actual focus and intended career sit firmly in 
-			        <strong>game development</strong> and <strong>software development</strong>, not robotics.
-			      </p>
-			      <p style="line-height: 1.8; font-size: 1.05em; color: #ddd;">
-			        My main interest is <strong>independent game development</strong> &mdash; particularly <strong>narrative design</strong>, 
-			        <strong>interactive storytelling</strong>, and the systems that connect them &mdash; alongside building 
-			        <strong>software applications</strong> that solve real-world problems.
-			      </p>
-			      <p style="line-height: 1.8; font-size: 1.05em; color: #ddd;">
-			        To be straightforward about it: I have no intention of pursuing a career in <strong>engineering or robotics</strong>. 
-			        The MSc has been a useful experience in some respects, but the work I actually care about lies elsewhere, 
-			        and that is where I plan to spend my time after graduation.
-			      </p>
+				    I am a master's student at <strong>The University of Manchester</strong>, currently finishing an 
+				    <strong>MSc in Robotics</strong> &mdash; though my actual focus and intended career sit firmly in 
+				    <strong>game development</strong> and <strong>software development</strong>, not robotics or engineering.
+				  </p>
+				  <p style="line-height: 1.8; font-size: 1.05em; color: #ddd;">
+				    My main interest is <strong>independent game development</strong> &mdash; particularly <strong>narrative design</strong>, 
+				    <strong>interactive storytelling</strong>, and the systems that connect them &mdash; alongside building 
+				    <strong>software applications</strong> that solve real-world problems.
+				  </p>
 			    </div>
 			
 			  </div>
@@ -201,17 +196,49 @@
 			</section>
 
 
-			<section id="two" class="main style2 left dark fullscreen">
-			
-				<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:24px; margin:0 0 20px 0;">
+			<section id="two" class="main style2 left dark fullscreen" style="position:relative;">
+
+				<!-- 左边白盒,绝对定位,跟原版 Under Construction 时一样钉在左侧 -->
+				<div class="content box style2" style="
+					position: absolute;
+					left: 8%;
+					top: 50%;
+					transform: translateY(-50%);
+					width: 28%;
+					background: rgba(255,255,255,0.9);
+					color: #333;
+					z-index: 2;
+				">
+					<header>
+						<h2>Graduate Projects</h2>
+					</header>
+					<p style="font-size: 1em;">
+						I had originally hoped this section would be filled with projects, but realistically, what worthwhile work was I ever going to produce in a place like this?
+						So this is what there is &mdash; mostly robotics-related coursework, plus one game-development project of my own.
+					</p>
+				</div>
+
+				<!-- 右边卡片网格,绝对定位在右侧 60% 宽度区域 -->
+				<div style="
+					position: absolute;
+					right: 4%;
+					top: 50%;
+					transform: translateY(-50%);
+					width: 58%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					gap: 18px;
+					z-index: 1;
+				">
 
 					<!-- Card 1: Robotics & SDG -->
-					<article style="width:320px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
+					<article style="width:300px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
 						<img src="gifs/RSCW1.gif"
 							alt="Robotics and the Sustainable Development Goals"
-							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
-						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">Robotics and the Sustainable Development Goals</h4>
-						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							style="width:100%; height:160px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:18px; line-height:1.25; margin:0 0 8px 0;">Robotics and the Sustainable Development Goals</h4>
+						<p style="font-size:0.78em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
 							A compulsory individual coursework piece intended to force a connection between robotics and the UN Sustainable Development Goals &mdash; essentially a box-ticking exercise rather than real engineering work.
 							I produced the entire video from start to finish on my own: research, scripting, recording, editing, and narration.
 						</p>
@@ -221,12 +248,12 @@
 					</article>
 
 					<!-- Card 2: LiDAR Parameter Testing -->
-					<article style="width:320px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
+					<article style="width:300px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
 						<img src="gifs/RSCW2.gif"
 							alt="LiDAR Parameter Testing and Analysis"
-							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
-						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">LiDAR Parameter Testing and Analysis</h4>
-						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							style="width:100%; height:160px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:18px; line-height:1.25; margin:0 0 8px 0;">LiDAR Parameter Testing and Analysis</h4>
+						<p style="font-size:0.78em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
 							An individual coursework experiment ostensibly meant to develop some kind of experimental analysis skill, in which we were asked to test and analyse several parameters of a LiDAR sensor.
 							I carried out the experiments, processed the results, and produced the entire video myself.
 						</p>
@@ -236,12 +263,12 @@
 					</article>
 
 					<!-- Card 3: Leo Rover -->
-					<article style="width:320px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
+					<article style="width:300px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
 						<img src="gifs/RSDP.gif"
 							alt="Leo Rover &mdash; Autonomous Block Detection and Pickup"
-							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
-						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">Leo Rover &mdash; Autonomous Block Detection and Pickup</h4>
-						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							style="width:100%; height:160px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:18px; line-height:1.25; margin:0 0 8px 0;">Leo Rover &mdash; Autonomous Block Detection and Pickup</h4>
+						<p style="font-size:0.78em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
 							A team project in which we built a rover capable of identifying coloured target blocks, autonomously navigating to them, and picking them up.
 							I was responsible for the block detection system &mdash; developing and tuning the HSV-based colour detection pipeline to work across both the Gazebo simulation and the physical RealSense hardware,
 							and integrating goal forwarding into the Nav2 stack.
@@ -253,12 +280,12 @@
 					</article>
 
 					<!-- Card 4: Indie Game -->
-					<article style="width:320px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
+					<article style="width:300px; background:rgba(0,0,0,0.55); border-radius:12px; padding:14px; text-align:center;">
 						<img src="gifs/indiegame.gif"
 							alt="My Indie Game"
-							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
-						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">My Indie Game</h4>
-						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							style="width:100%; height:160px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:18px; line-height:1.25; margin:0 0 8px 0;">My Indie Game</h4>
+						<p style="font-size:0.78em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
 							The repository for an indie game I intend to keep developing after graduation.
 							I originally thought I would be able to make substantial progress on this during the MSc, but the programme has demanded so much pointless busywork that progress has been slow.
 							It is what it is &mdash; the project will continue once this degree is behind me.
@@ -270,18 +297,7 @@
 
 				</div>
 
-
-			    <div class="content box style2" style="margin-left:0; margin-right:auto; max-width:60%;">
-			        <header>
-			            <h2>Graduate Projects</h2>
-			        </header>
-			        <p>
-			           I had originally hoped this section would be filled with projects, but realistically, what worthwhile work was I ever going to produce in a place like this?
-			           So this is what there is &mdash; mostly robotics-related coursework, plus one game-development project of my own.
-			        </p>
-			    </div>
-
-			    <a href="#work" class="button style2 down anchored">Next</a>
+				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Work -->
