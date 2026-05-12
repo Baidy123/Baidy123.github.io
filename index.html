@@ -60,15 +60,16 @@
 			          <h2 style="font-size: 2.5em; font-weight: 900; margin-bottom: 0.5em;">About Me</h2>
 			        </header>
 			      <p style="line-height: 1.8; font-size: 1.05em; color: #ddd;">
-				    I am a master's student at <strong>The University of Manchester</strong>, currently finishing an 
-				    <strong>MSc in Robotics</strong> &mdash; though my actual focus and intended career sit firmly in 
-				    <strong>game development</strong> and <strong>software development</strong>, not robotics or engineering.
-				  </p>
-				  <p style="line-height: 1.8; font-size: 1.05em; color: #ddd;">
-				    My main interest is <strong>independent game development</strong> &mdash; particularly <strong>narrative design</strong>, 
-				    <strong>interactive storytelling</strong>, and the systems that connect them &mdash; alongside building 
-				    <strong>software applications</strong> that solve real-world problems.
-				  </p>
+			        I am a master's student at <strong>The University of Manchester</strong>, currently finishing an 
+			        <strong>MSc in Robotics</strong> &mdash; though my actual focus and intended career sit firmly in 
+			        <strong>game development</strong> and <strong>software development</strong>, not <strong>robotics</strong> or <strong>engineering</strong>.
+			      </p>
+			      <p style="line-height: 1.8; font-size: 1.05em; color: #ddd;">
+			        My main interest is <strong>independent game development</strong> &mdash; particularly <strong>narrative design</strong>, 
+			        <strong>interactive storytelling</strong>, and the systems that connect them &mdash; alongside building 
+			        <strong>software applications</strong> that solve real-world problems.
+			      </p>
+
 			    </div>
 			
 			  </div>
@@ -196,18 +197,13 @@
 			</section>
 
 
-			<section id="two" class="main style2 left dark fullscreen" style="position:relative;">
+			<section id="two" class="main style2 left dark">
 
-				<!-- 左边白盒,绝对定位,跟原版 Under Construction 时一样钉在左侧 -->
+				<!-- 左边白盒,模板原生 flex 位置 + 滑入动画 -->
 				<div class="content box style2" style="
-					position: absolute;
-					left: 8%;
-					top: 50%;
-					transform: translateY(-50%);
 					width: 28%;
 					background: rgba(255,255,255,0.9);
 					color: #333;
-					z-index: 2;
 				">
 					<header>
 						<h2>Graduate Projects</h2>
@@ -218,18 +214,14 @@
 					</p>
 				</div>
 
-				<!-- 右边卡片网格,绝对定位在右侧 60% 宽度区域 -->
+				<!-- 右边卡片网格,在模板 flex 流里占右侧空间 -->
 				<div style="
-					position: absolute;
-					right: 4%;
-					top: 50%;
-					transform: translateY(-50%);
-					width: 58%;
+					width: 64%;
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: center;
-					gap: 18px;
-					z-index: 1;
+					gap: 20px;
+					padding: 40px 0;
 				">
 
 					<!-- Card 1: Robotics & SDG -->
