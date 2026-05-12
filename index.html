@@ -197,42 +197,87 @@
 			</section>
 
 
-			<section id="two" class="main style2 left dark fullscreen">
+			<section id="two" class="main style2 right dark fullscreen">
+			
+				<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:24px; margin:0 0 20px 0;">
 
-				<!-- 左边：稍小一点的白框 -->
-				<div class="content box style2" style="
-					width: 28%;
-					background: rgba(255,255,255,0.9);
-					color: #333;
-				">
-					<header>
-						<h2>Graduate Projects</h2>
-					</header>
-					<p style="font-size: 1em;">
-						This section presents my <strong>graduate projects</strong>, mainly focusing on 
-						<strong>robotics and artificial intelligence</strong>, I guess, but still hope to make something interesting in <strong>game development</strong>...
-						Stay tuned!
-					</p>
+					<!-- Card 1: Robotics & SDG -->
+					<article style="width:320px; background:rgba(255,255,255,0.50); border-radius:12px; padding:14px; text-align:center;">
+						<img src="gifs/RSCW1.gif"
+							alt="Robotics and the Sustainable Development Goals"
+							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">Robotics and the Sustainable Development Goals</h4>
+						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							A compulsory individual coursework piece intended to force a connection between robotics and the UN Sustainable Development Goals &mdash; essentially a box-ticking exercise rather than real engineering work.
+							I produced the entire video from start to finish on my own: research, scripting, recording, editing, and narration.
+						</p>
+						<p style="margin:0;">
+						<a href="https://youtu.be/c_FTRZU8Nqc?si=st_k2-uT9FwVJREH" target="_blank" rel="noopener" data-poptrox="ignore">Video</a>
+						</p>
+					</article>
+
+					<!-- Card 2: LiDAR Parameter Testing -->
+					<article style="width:320px; background:rgba(255,255,255,0.50); border-radius:12px; padding:14px; text-align:center;">
+						<img src="gifs/RSCW2.gif"
+							alt="LiDAR Parameter Testing and Analysis"
+							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">LiDAR Parameter Testing and Analysis</h4>
+						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							An individual coursework experiment ostensibly meant to develop some kind of experimental analysis skill, in which we were asked to test and analyse several parameters of a LiDAR sensor.
+							I carried out the experiments, processed the results, and produced the entire video myself.
+						</p>
+						<p style="margin:0;">
+						<a href="https://youtu.be/En_L2JuR5qo?si=vcHl_FKmAh634Rmk" target="_blank" rel="noopener" data-poptrox="ignore">Video</a>
+						</p>
+					</article>
+
+					<!-- Card 3: Leo Rover -->
+					<article style="width:320px; background:rgba(255,255,255,0.50); border-radius:12px; padding:14px; text-align:center;">
+						<img src="gifs/RSDP.gif"
+							alt="Leo Rover &mdash; Autonomous Block Detection and Pickup"
+							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">Leo Rover &mdash; Autonomous Block Detection and Pickup</h4>
+						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							A team project in which we built a rover capable of identifying coloured target blocks, autonomously navigating to them, and picking them up.
+							I was responsible for the block detection system &mdash; developing and tuning the HSV-based colour detection pipeline to work across both the Gazebo simulation and the physical RealSense hardware,
+							and integrating goal forwarding into the Nav2 stack.
+						</p>
+						<p style="margin:0;">
+						<a href="PDFs/Final_Design_Review___Team_7-2.pdf" target="_blank" rel="noopener" data-poptrox="ignore">PDF</a> ·
+						<a href="https://youtu.be/zowtnIePxjM?si=-4ZKD15YHKkpNsgr" target="_blank" rel="noopener" data-poptrox="ignore">Video</a>
+						</p>
+					</article>
+
+					<!-- Card 4: Indie Game -->
+					<article style="width:320px; background:rgba(255,255,255,0.50); border-radius:12px; padding:14px; text-align:center;">
+						<img src="gifs/indiegame.gif"
+							alt="My Indie Game"
+							style="width:100%; height:180px; object-fit:cover; border-radius:10px; display:block; margin:0 0 10px 0;">
+						<h4 style="font-size:20px; line-height:1.25; margin:0 0 8px 0;">My Indie Game</h4>
+						<p style="font-size:0.8em; line-height:1.6; color:#ddd; margin:0 0 10px 0; text-align:left;">
+							The repository for an indie game I intend to keep developing after graduation.
+							I originally thought I would be able to make substantial progress on this during the MSc, but the programme has demanded so much pointless busywork that progress has been slow.
+							It is what it is &mdash; the project will continue once this degree is behind me.
+						</p>
+						<p style="margin:0;">
+						<a href="https://github.com/Baidy123/Top-Down-TPS-" target="_blank" rel="noopener" data-poptrox="ignore">Link</a>
+						</p>
+					</article>
+
 				</div>
 
-				<!-- 右边：更大的“内容建设中”框 -->
-				<div class="content box style2" style="
-					position: absolute;
-					right: 8%;
-					top: 50%;
-					transform: translateY(-50%);
-					width: 45%;
-					text-align: center;
-					background: rgba(255,255,255,0.9);
-					color: #333;
-				">
-					<h3 style="font-size: 2em; margin-bottom: 0.5em;"> Content Under Construction </h3>
-					<p style="font-size: 1.15em;">
-						🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧
-					</p>
-				</div>
 
-				<a href="#work" class="button style2 down anchored">Next</a>
+			    <div class="content box style2">
+			        <header>
+			            <h2>Graduate Projects</h2>
+			        </header>
+			        <p>
+			           I had originally hoped this section would be filled with projects, but realistically, what worthwhile work was I ever going to produce in a place like this?
+			           So this is what there is &mdash; mostly robotics-related coursework, plus one game-development project of my own.
+			        </p>
+			    </div>
+
+			    <a href="#work" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Work -->
@@ -337,18 +382,3 @@
 	</body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
